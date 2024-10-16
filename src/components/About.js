@@ -27,7 +27,7 @@ const About = () => {
             className="flex-1"
           >
             <h2 className="h2 text-accent">Обо мне</h2>
-            <h3 className="h3 mb-4">Я ученик 2 курса. Фронтенд.</h3>
+            <h3 className="h3 mb-4">Я ученик 2 курса. </h3>
             <p className="mb-6">
               Lorem Ipsum is simply dummy text of the printing and typesetting
               industry. Lorem Ipsum has been the industry's standard dummy text
