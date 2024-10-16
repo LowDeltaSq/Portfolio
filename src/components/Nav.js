@@ -1,12 +1,6 @@
 import React from "react";
 import { BiHomeAlt, BiUser } from "react-icons/bi";
-import {
-  BsClipboardData,
-  BsBriefcase,
-  BsChatSquare,
-  BsClipboard,
-  BsChatSquareText,
-} from "react-icons/bs";
+import { BsClipboardData, BsBriefcase, BsChatSquareText } from "react-icons/bs";
 import { Link } from "react-scroll";
 
 const Nav = () => {
@@ -19,45 +13,45 @@ const Nav = () => {
           smooth={true}
           spy={true}
           offset={-200}
-          className=" cursor-pointer w-[60px] h-[60px] flex items-center"
+          className="cursor-pointer w-[60px] h-[60px] flex items-center justify-center rounded-full bg-transparent" // фиксированная круглая форма
         >
-          <BiHomeAlt />
+          <BiHomeAlt className="w-8 h-8" />
         </Link>
         <Link
           to="about"
           activeClass="active"
           smooth={true}
           spy={true}
-          className=" cursor-pointer w-[60px] h-[60px] flex items-center"
+          className="cursor-pointer w-[60px] h-[60px] flex items-center justify-center rounded-full bg-transparent" // фиксированная круглая форма
         >
-          <BiUser />
+          <BiUser className="w-8 h-8" />
         </Link>
         <Link
           to="service"
           activeClass="active"
           smooth={true}
           spy={true}
-          className=" cursor-pointer w-[60px] h-[60px] flex items-center"
+          className="cursor-pointer w-[60px] h-[60px] flex items-center justify-center rounded-full bg-transparent" // фиксированная круглая форма
         >
-          <BsClipboardData />
+          <BsClipboardData className="w-8 h-8" />
         </Link>
         <Link
           to="work"
           activeClass="active"
           smooth={true}
           spy={true}
-          className=" cursor-pointer w-[60px] h-[60px] flex items-center"
+          className="cursor-pointer w-[60px] h-[60px] flex items-center justify-center rounded-full bg-transparent" // фиксированная круглая форма
         >
-          <BsBriefcase />
+          <BsBriefcase className="w-8 h-8" />
         </Link>
         <Link
           to="contact"
           activeClass="active"
           smooth={true}
           spy={true}
-          className=" cursor-pointer w-[60px] h-[60px] flex items-center"
+          className="cursor-pointer w-[60px] h-[60px] flex items-center justify-center rounded-full bg-transparent" // фиксированная круглая форма
         >
-          <BsChatSquareText />
+          <BsChatSquareText className="w-8 h-8" />
         </Link>
       </div>
     </nav>
